@@ -1,91 +1,100 @@
 <html>
+
 <head>
-    
-    
-    <style>fieldset { width:100%; }</style>
-    
-    
-    
+
+
+    <style>
+        fieldset { width:100%; }
+    </style>
+
+
+
     <title>TS -- Trade Today!</title>
-    
-    
-    
+
+
+
     <link rel="stylesheet" type="text/css" href="theme.css" title="style" />
-<link rel="alternate stylesheet" type="text/css" href="minimalist.css" title="black" />
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script type="text/javascript" src="styleswitcher.js"></script>
-    
-    
-    
-    
-    
-  <script src="jquery.min.js"></script>
-    
-    
-        <link rel="stylesheet" type="text/css" href="topanim.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link rel="alternate stylesheet" type="text/css" href="minimalist.css" title="black" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="styleswitcher.js"></script>
 
 
 
 
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    
-   
-    
+    <script src="jquery.min.js"></script>
 
-    
-    
-    
-    
-    
-    
-<script>function load() {
-    var file = new XMLHttpRequest();
-    file.open("GET", "Public.txt", true);
-    file.onreadystatechange = function() {
-      if (file.readyState === 4) {  // Makes sure the document is ready to parse
-        if (file.status === 200) {  // Makes sure it's found the file
-          text = file.responseText;
-          document.getElementById("parsed").innerHTML = text;
+
+    <link rel="stylesheet" type="text/css" href="topanim.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+
+
+
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function load() {
+            var file = new XMLHttpRequest();
+            file.open("GET", "Public.txt", true);
+            file.onreadystatechange = function() {
+              if (file.readyState === 4) {  // Makes sure the document is ready to parse
+                if (file.status === 200) {  // Makes sure it's found the file
+                  text = file.responseText;
+                  document.getElementById("parsed").innerHTML = text;
+                }
+              }
+            }
         }
-      }
-    }
-}
-
-window.onLoad = load();</script>
-    
-    
-    <script>var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-            content.style.display = "none";
-        } else {
-            content.style.display = "block";
-        }
-    });
-}</script>
-    </head>
-    
-    <body>
         
-        <video autoplay loop id="video-background" muted plays-inline>
+        window.onLoad = load();
+    </script>
+
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+</head>
+
+<body>
+
+    <video autoplay loop id="video-background" muted plays-inline>
   <source src="http://www.blacksquad.com/wp-content/uploads/2017/04/BSQ_main_25s_0421.mp4" type="video/mp4">
 </video>
-        <style></style>
-        
-    
-<center><br><br><font face="Montserrat" color="gray" size="55"><span class="logo">TRADESQUAD</span></font></center>
+    <style></style>
+
+
+    <center><br><br>
+        <font face="Montserrat" color="gray" size="55"><span class="logo">TRADESQUAD</span></font>
+    </center>
 
 
 
@@ -94,30 +103,39 @@ for (i = 0; i < coll.length; i++) {
 
 
 
-        
-       <br><br><br>
-<center>
-    
-    <button data-modal="modal-5" type="button" class="enjoy-css" data-toggle="modal" data-target="#myModal"><i class="fas fa-envelope"></i> Suggestions</button>
-    <button data-modal="modal-5" type="button" class="enjoy-css" data-toggle="modal" data-target="#trademodal"><i class="fas fa-bullseye"></i> Start Trading</button></center>        
-        <font color="red" face="Montserrat"><center>
-            
-                            <img id="elena" style="z-index:123123123" src="/skins/elena.png"></img>
-        <img id="cheryl" src="/skins/cheryl.png"></img>
-            
-        <section id="container"><div style="overflow-y: scroll; height:60%;"
-id="parsed">
-            <div><p><?php include('Public.txt'); ?></p></div>
-        </div></section>   <font face="montserrat" color="white" size="3"><center>All posts are removed Monthly.</center>
+
+    <br><br><br>
+    <center>
+
+        <button data-modal="modal-5" type="button" class="enjoy-css" data-toggle="modal" data-target="#myModal"><i class="fas fa-envelope"></i> Suggestions</button>
+        <button data-modal="modal-5" type="button" class="enjoy-css" data-toggle="modal" data-target="#trademodal"><i class="fas fa-bullseye"></i> Start Trading</button></center>
+    <font color="red" face="Montserrat">
+        <center>
+
+            <img id="elena" style="z-index:123123123" src="/skins/elena.png"></img>
+            <img id="cheryl" src="/skins/cheryl.png"></img>
+
+            <section id="container">
+                <div style="overflow-y: scroll; height:60%;" id="parsed">
+                    <div>
+                        <p>
+                            <?php include('Public.txt'); ?>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <font face="montserrat" color="white" size="3">
+                <center>All posts are removed Monthly.</center>
 
 
-<font color="gray">
-<span onclick="setActiveStyleSheet('style');return false;">Default</span><font color="white"> | </font><span onclick="setActiveStyleSheet('black');return false;">Alternate</span>
+                <font color="gray">
+                    <span onclick="setActiveStyleSheet('style');return false;">Default</span>
+                    <font color="white"> | </font><span onclick="setActiveStyleSheet('black');return false;">Alternate</span>
 
 
-        </font>
+                </font>
 
-                    <svg xmlns:xlink="http://www.w3.org/1999/xlink"	width="100%" height="100%">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%">
 	 <defs>
 	<pattern id="hexagons" width="50" height="43.4" patternUnits="userSpaceOnUse" patternTransform="scale(5) translate(2) rotate(45)">
 	<polygon points="24.8,22 37.3,29.2 37.3,43.7 24.8,50.9 12.3,43.7 12.3,29.2" id="hex" />
@@ -130,35 +148,35 @@ id="parsed">
 <rect width="100%" height="100%" fill="url(#hexagons)" />
 </svg>
 
-        
-        
-  
-<!-- Modal -->
-  <div class="modal w3-container w3-center w3-animate-opacity" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-        </div>
-        <div class="modal-body">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
-                      <Font color="gray" face="Montserrat">
-  <div class="pads">
-<center>
-<form method="POST" action="https://formspree.io/achilliogames@gmail.com">
-    <span class="label"><i class="fas fa-at"></i> Email<font color="red"> *</font><Font color="gray" face="Montserrat"><br></span>
-  <input type="email" required name="email" id="sugem" placeholder="johndoe@gmail.com"><br>
-  <span class="label"><i class="fas fa-comment"></i> Message/Suggestion<font color="red"> *</font<Font color="gray" face="Montserrat"><br></span>
-  <textarea name="message" required id="sugem" placeholder="Keep up the good work!"></textarea><br>
-  <button type="submit" class="enjoy-css"><i class="fas fa-arrow-circle-right"></i> Send</button>
-</form>
-</center>
-  </div>
-</div>
-</div>
-</div>
-</div>
+
+
+
+                <!-- Modal -->
+                <div class="modal w3-container w3-center w3-animate-opacity" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            </div>
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <Font color="gray" face="Montserrat">
+                                    <div class="pads">
+                                        <center>
+                                            <form method="POST" action="https://formspree.io/achilliogames@gmail.com">
+                                                <span class="label"><i class="fas fa-at"></i> Email<font color="red"> *</font><Font color="gray" face="Montserrat"><br></span>
+                                                <input type="email" required name="email" id="sugem" placeholder="johndoe@gmail.com"><br>
+                                                <span class="label"><i class="fas fa-comment"></i> Message/Suggestion<font color="red"> *</font<Font color="gray" face="Montserrat"><br></span>
+                                                <textarea name="message" required id="sugem" placeholder="Keep up the good work!"></textarea><br>
+                                                <button type="submit" class="enjoy-css"><i class="fas fa-arrow-circle-right"></i> Send</button>
+                                            </form>
+                                        </center>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
 
@@ -166,27 +184,28 @@ id="parsed">
 
 
 
-        
 
-  <!-- Modal -->
-  <div class="modal w3-container w3-center w3-animate-opacity" id="trademodal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-        </div>
-        <div class="modal-body">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
 
-          <form action="/tradepost.php" method="post" id="tradeskins">
-<Font color="white" face="Montserrat">
-  <div class="pads">
-      <Font color="gray">
-  <span class="label"><i class="fab fa-discord"></i> Discord<font color="red"> *</font><br></span><input placeholder="Achillio#9136" required maxlength="15" minlength="3" max="20" id="Field1" name="field1" type="text"><br>
-  
-  <span class="label"><i class="fas fa-check-circle"></i> Skin Trading<font color="red"> *</font><br></span>
-  <select size="1" required form="tradeskins" id="Field2" name="field2">
+                <!-- Modal -->
+                <div class="modal w3-container w3-center w3-animate-opacity" id="trademodal" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            </div>
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                                <form action="/tradepost.php" method="post" id="tradeskins">
+                                    <Font color="white" face="Montserrat">
+                                        <div class="pads">
+                                            <Font color="gray">
+                                                <span class="label"><i class="fab fa-discord"></i> Discord<font color="red"> *</font><br></span><input placeholder="Achillio#9136" required maxlength="15" minlength="3" max="20" id="Field1" name="field1"
+                                                    type="text"><br>
+
+                                                <span class="label"><i class="fas fa-check-circle"></i> Skin Trading<font color="red"> *</font><br></span>
+                                                <select size="1" required form="tradeskins" id="Field2" name="field2">
       <option disabled selected>Please Select A Skin</option>
       <option disabled>=== ARs ===</option>
 <option value='<span class="skinpic">AK12 GL Blue Sky<img class="skin" src="/skins/ars/AK-12/BLUE%20SKY.png"/></span>'>AK12 GL Blue Sky</option>
@@ -361,8 +380,8 @@ id="parsed">
 <option value='<span class="skinpic">HNK45C Glamorous<img class="skin" src="/skins/pistols/HNK45C/GLAMOROUS.png"/></span>'>HNK45C Glamorous</option>
 <option value='<span class="skinpic">Cavaliere Rhino Chrome<img class="skin" src="/skins/pistols/CAVALIERE%20RHINO/CHROME.png"/></span>'>Cavaliere Rhino Chrome</option>
 </select><br>
-<span class="label"><i class="fas fa-question-circle"></i> Skin Wanted<font color="red"> *</font><br></span>
-  <select size="1" required form="tradeskins" id="Field3" name="field3">
+                                                <span class="label"><i class="fas fa-question-circle"></i> Skin Wanted<font color="red"> *</font><br></span>
+                                                <select size="1" required form="tradeskins" id="Field3" name="field3">
       <option disabled selected>Please Select A Skin</option>
         <option value="Make an Offer">Make an Offer</option>
               <option disabled>=== ARs ===</option>
@@ -538,46 +557,44 @@ id="parsed">
 <option value='<span class="skinpic">HNK45C Glamorous<img class="skin" src="/skins/pistols/HNK45C/GLAMOROUS.png"/></span>'>HNK45C Glamorous</option>
 <option value='<span class="skinpic">Cavaliere Rhino Chrome<img class="skin" src="/skins/pistols/CAVALIERE%20RHINO/CHROME.png"/></span>'>Cavaliere Rhino Chrome</option>
 </select><br>
-  
- <!-- <span class="label"><i class="fas fa-check-circle"></i> Skin(s) Owned<br></span><input id="Field2"name="field2" type="text"><br> -->
-  <!-- <span class="label"><i class="fas fa-question-circle"></i> Skin Wanted<br></span><input id="Field3" name="field3" type="text"><br> -->
-  <span class="label"><i class="fab fa-steam"></i> Steam Inventory<br></span><input placeholder="https://steamcommunity.com/id/eamahass/inventory/#753" id="Field4" name="field4" type="text"><br>
-    <button type="submit" class="enjoy-css"><i class="fas fa-arrow-circle-right"></i> Submit</button>
 
-  </div>
-</form>
-        </div>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-  
-</div>
-        
+                                                <!-- <span class="label"><i class="fas fa-check-circle"></i> Skin(s) Owned<br></span><input id="Field2"name="field2" type="text"><br> -->
+                                                <!-- <span class="label"><i class="fas fa-question-circle"></i> Skin Wanted<br></span><input id="Field3" name="field3" type="text"><br> -->
+                                                <span class="label"><i class="fab fa-steam"></i> Steam Inventory<br></span><input placeholder="https://steamcommunity.com/id/eamahass/inventory/#753" id="Field4" name="field4" type="text"><br>
+                                                <button type="submit" class="enjoy-css"><i class="fas fa-arrow-circle-right"></i> Submit</button>
 
-</div>
-    </body>
-    </html>
-    
-    
+                                        </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                </div>
+
+                </div>
+
+
+                </div>
+</body>
+
+</html>
+
+
 
 <script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-            content.style.display = "none";
-        } else {
-            content.style.display = "block";
-        }
-    });
-}
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
 </script>
-
-<body>
-
