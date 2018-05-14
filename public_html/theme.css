@@ -1,0 +1,310 @@
+body {background-color: #272727;
+         background-repeat: repeat-y;
+}
+img[alt="www.000webhost.com"]{display:none;}
+
+.logo {
+      text-shadow: 4px 4px 4px #aaa;
+  margin: 90px auto 0 auto;
+    border: 10px solid black;
+    padding: 1%;
+}
+
+a:link {
+    text-decoration: none;
+    color:white;
+}
+
+a:visited {
+    text-decoration: none;
+    color:white;
+}
+
+a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+a:active {
+    text-decoration: none;
+    color:white;
+}
+
+svg { 
+display:none;
+}
+polygon { 
+  fill: #272727; 
+  stroke-width: 2;
+  stroke: white;
+  z-index:-5;
+}
+
+#container {
+  height: auto;
+  width: 70%;
+  margin: 25px auto 25px auto;
+  background-color: #E288A0;
+  background-color: rgba(255,255,255,0.7);
+  box-shadow: -5px 5px white;
+  padding: 40px;
+}
+
+legend {
+    width: auto;
+}
+
+fieldset {
+    width: 50%;
+    margin: 15px;
+    text-align: center;
+}
+
+#tradeform {
+    margin: 0 auto; 
+width:250px;
+margin:5px;
+}
+
+label {
+    text-align:center;
+}
+input[type="text"], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+.pads {
+    border-radius: 2px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.collapsible {
+    margin:35px;
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    width: 10%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 3px;
+    display: none;
+    overflow: hidden;
+    
+}
+
+.page {
+  padding: 15px 0 0;
+}
+
+.bmd-modalButton {
+  display: block;
+  margin: 15px auto;
+  padding: 5px 15px;
+}
+
+.close-button {
+  overflow: hidden;
+}
+img#elena,.elena,elena {
+    display:none;
+}
+img#cheryl {
+    display:none;
+}
+.bmd-modalContent {
+  box-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+  
+.bmd-modalContent .close {
+  font-size: 30px;
+  line-height: 30px;
+  padding: 7px 4px 7px 13px;
+  text-shadow: none;
+  opacity: .7;
+  color:#fff;
+      border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.bmd-modalContent .close span {
+  display: block;
+}
+
+.bmd-modalContent .close:hover,
+.bmd-modalContent .close:focus {
+  opacity: 1;
+  outline: none;
+}
+
+.bmd-modalContent iframe {
+  display: block;
+  margin: 0 auto;
+}
+/* The Modal (background) */
+.modal,.tradeform {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100222; /* Sit on top */
+    left: 0;
+    top: 100px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    
+}
+
+/* Modal Content/Box */
+.modal-content {
+    margin: 150px auto;
+    width: 25%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+        background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+        background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+ /*   overflow: hidden; */
+    outline:none;
+}
+
+
+
+
+
+
+
+
+
+
+.enjoy-css {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 1px solid #018dc4;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal 16px/normal;
+/*  color: rgba(0,0,0,0.9); */
+  -o-text-overflow: clip;
+      letter-spacing: 2px;
+        text-transform: uppercase;
+
+  text-overflow: clip;
+  background: #00ffcb;
+/*  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ; 
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+  text-shadow: -1px -1px 0 rgba(15,73,168,0.66) ; */
+  -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+
+/* .hide-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:100}} */
+
+
+.visible,
+.hidden {
+  overflow: hidden;
+  /* This container should not have padding, borders, etc. */
+}
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 2s linear;
+}
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
+.visible > div,
+.hidden > div {
+  /* Put any padding, border, min-height, etc. here. */
+}
+.hidden > div {
+  margin-top: -10000px;
+  transition: margin-top 0s 2s;
+}
+
+
+.skinpic img { display:none; }
+ .skinpic:hover img { display:block; }
+ .skin{height:25%;width:25%;margin-left:auto;margin-right:auto;}
+ 
+ 
+ 
+ ::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background: #00ffcb;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2);
+}
+::-webkit-scrollbar-track {
+    background: #242424;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+input#sugem,textarea#sugem {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
